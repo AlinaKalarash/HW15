@@ -3,7 +3,7 @@ package com.example.HW15.entity;
 public class Note {
     private long id;
     private String title;
-    private String context;
+    private String content;
 
     public long getId() {
         return id;
@@ -21,11 +21,11 @@ public class Note {
         this.title = title;
     }
 
-    public String getContext() {
-        return context;
+    public String getContent() {
+        return content;
     }
 
-    public void setContext(String context) {
-        this.context = context;
+    public void setContent(String content) {
+        this.content = content;
     }
 }
